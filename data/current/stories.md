@@ -1,6 +1,23 @@
 # Horoscope query without horoscope_sign
 
-## story_001
+##  story_001
+* greet
+ - utter_name 
+ 
+ 
+## story_002
+* goodbye
+ - utter_goodbye
+
+## story_003
+* thanks
+ - utter_thanks
+ 
+## story_004
+* name{"person_name":null} 
+ - action_greet
+
+## story_005
 * greeting
   - utter_greet
 * get_horoscope
@@ -11,8 +28,7 @@
   - utter_subscribe
 * bye
 
-
-## story_002
+## story_006
 * greeting
   - utter_greet
 * get_horoscope{"horoscope_sign": "Capricorn"}
@@ -25,6 +41,8 @@
 * bye
 
 # Horoscope query with horoscope_sign
+
+## story_007
 * greeting
     - utter_greet
 * get_horoscope
@@ -40,7 +58,7 @@
     - slot{"subscribe": true}
 * bye
 
-# Horoscope with sign provided
+## story_008
 * greeting
     - utter_greet
 * get_horoscope{"horoscope_sign": "leo"}
@@ -55,6 +73,8 @@
 * bye
 
 # When user directly asks for subscription
+
+## story_009
 * greeting
     - utter_greet
 * subscription{"subscribe": "True"}
