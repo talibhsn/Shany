@@ -1,3 +1,5 @@
+# Horoscope query without horoscope_sign
+
 ## story_001
 * greeting
   - utter_greet
@@ -22,7 +24,7 @@
   - subscribe_user
 * bye
 
-## Horoscope query with horoscope_sign
+# Horoscope query with horoscope_sign
 * greeting
     - utter_greet
 * get_horoscope
@@ -38,7 +40,7 @@
     - slot{"subscribe": true}
 * bye
 
-## Horoscope with sign provided
+# Horoscope with sign provided
 * greeting
     - utter_greet
 * get_horoscope{"horoscope_sign": "leo"}
@@ -52,7 +54,7 @@
     - slot{"subscribe": true}
 * bye
 
-## When user directly asks for subscription
+# When user directly asks for subscription
 * greeting
     - utter_greet
 * subscription{"subscribe": "True"}
