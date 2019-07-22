@@ -7,6 +7,29 @@ import requests
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 
+class ActionGreet(Action):
+
+	def name(self):
+		return "action_greeting"
+
+	def run(self, dispatcher, tracker, domain):
+		
+		person_name = next(tracker.get_latest_entity_values('person_name'), None)
+		dispatcher.utter_message("Nice to meet you "+ person_name+ " How can I help you ?")
+		
+		return [SlotSet("person_name", person_name)]
+
+class ActionBye(Action):
+
+	def name(self):
+		return "action_bye"
+
+	def run(self, dispatcher, tracker, domain):
+		person_name = tracker.get_slot('person_name')
+		dispatcher.utter_message("See you soon "+ person_name)
+		
+		return []
+
 class GetTodaysHoroscope(Action):
 
     def name(self):
