@@ -7,6 +7,7 @@
   - slot{"horoscope_sign": "Aries"}
   - get_todays_horoscope
   - utter_subscribe
+* bye
 
 
 ## story_002
@@ -19,6 +20,7 @@
 * subscription
   - slot{"subscribe": "True"}
   - subscribe_user
+* bye
 
 ## Horoscope query with horoscope_sign
 * greeting
@@ -34,6 +36,7 @@
     - slot{"subscribe": "True"}
     - subscribe_user
     - slot{"subscribe": true}
+* bye
 
 ## Horoscope with sign provided
 * greeting
@@ -47,6 +50,7 @@
     - slot{"subscribe": "True"}
     - subscribe_user
     - slot{"subscribe": true}
+* bye
 
 ## When user directly asks for subscription
 * greeting
@@ -55,3 +59,4 @@
     - slot{"subscribe": "True"}
     - subscribe_user
     - slot{"subscribe": true}
+* bye
