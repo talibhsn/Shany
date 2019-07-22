@@ -4,7 +4,6 @@
 * greet
  - utter_name 
  
- 
 ## story_002
 * goodbye
  - utter_goodbye
