@@ -6,22 +6,42 @@
         "intent": "greeting",
         "entities": []
       },
-      {
-        "text": "I want to know my Horoscope",
-        "intent": "get_horoscope",
+	  {
+        "text": "Hey",
+        "intent": "greeting",
         "entities": []
       },
-      {
-        "text": "Can you please tell me my horoscope?",
-        "intent": "get_horoscope",
+	  {
+        "text": "Hi bot",
+        "intent": "greeting",
         "entities": []
       },
-      {
-        "text": "Please subscribe me",
-        "intent": "subscription",
+	  {
+        "text": "Hey bot",
+        "intent": "greeting",
         "entities": []
       },
-      {
+	  {
+        "text": "Good morning",
+        "intent": "greeting",
+        "entities": []
+      },
+	  {
+        "text": "hi again",
+        "intent": "greeting",
+        "entities": []
+      },
+	  {
+        "text": "hi folks",
+        "intent": "greeting",
+        "entities": []
+      },
+	  {
+        "text": "hi pal!",
+        "intent": "greeting",
+        "entities": []
+      },
+	  {
         "text": "Hi",
         "intent": "greeting",
         "entities": []
@@ -44,6 +64,266 @@
       {
         "text": "bonjour",
         "intent": "greeting",
+        "entities": []
+      },
+	  {
+        "text": "Bye",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "Goodbye",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "See you",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "goodnight",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "have a nice day",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "i'm off",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "we'll speak soon",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "See you later",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "Bye bot",
+        "intent": "Bye",
+        "entities": []
+      },
+	  {
+        "text": "thanks",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "Thank you",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "Thank you so much",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "thanks bot",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "thanks for that",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "cheers",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "cheers bro",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "ok thanks!",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "perfect thank you",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "thanks a bunch for everything",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "hi there",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "bonjour",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "thanks for the help",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "thanks a lot",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "amazing, thanks",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "cool, thanks",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "have a nice day",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "cool thank you",
+        "intent": "thank",
+        "entities": []
+      },
+	  {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+	  {
+        "text": "yes sure",
+        "intent": "affirm",
+        "entities": []
+      },
+	  {
+        "text": "absolutely",
+        "intent": "affirm",
+        "entities": []
+      },
+	  	  {
+        "text": "for sure",
+        "intent": "affirm",
+        "entities": []
+      },
+	  {
+        "text": "definitely",
+        "intent": "affirm",
+        "entities": []
+      },
+	  {
+        "text": "My name is [Shany](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "My name is [Talib](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "My name is [Tilo](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "My name is [Abhinav](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "My name is [John](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "My name is [Frank](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "perfect thank you",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "thanks a bunch for everything",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "I am [Shany](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "people call me [Shany](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "It's [Shany](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "Usually people call me [Shany](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "I'm [Shany](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "Call me [Shany](person_name)",
+        "intent": "name",
+        "entities": []
+      },
+	  {
+        "text": "look for a horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+	  {
+        "text": "I want buy a horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+	  {
+        "text": "show my horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "I want to know my Horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Can you please tell me my horoscope?",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Please subscribe me",
+        "intent": "subscription",
         "entities": []
       },
       {
