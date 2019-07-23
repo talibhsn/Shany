@@ -8,11 +8,11 @@ RASA NLU works with upto 3.6 version otherwise, it will raise errors and problem
 
 Navigate in your bash terminal to the location you would like to have your environment:
 
-'''python
+```
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.6
-'''
+```
 
 To install Rasa, run the following pip command that we’ll be using Rasa version 0.13.2.
 
