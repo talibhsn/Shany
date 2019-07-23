@@ -54,7 +54,7 @@ sudo apt-get install python3.6-dev
 pip install twisted
 pip install rasa-nlu==0.13.2
 ```
-We shall now install two of the most popular pipelines (I’ll explain all of these fancy words to you in the next blog post). Install the spacy pipeline. It will take a little time, don’t worry!
+We shall now install two of the most popular pipelines. Install the spacy pipeline. It will take a little time, don’t worry!
 ```
 pip install rasa_nlu[spacy]
 python -m spacy download en_core_web_md
