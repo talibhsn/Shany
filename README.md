@@ -65,7 +65,7 @@ Install the TensorFlow pipeline
 pip install rasa_nlu[tensorflow]
 ```
 
-### Execution of RASA-NLU
+## Execution of RASA-NLU
 
 Let’s go to our data folder that we created earlier in our terminal and run the following command:
 ```
