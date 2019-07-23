@@ -1,6 +1,18 @@
 # Shany
 RASA-powered Horoscope Chatbot
 
+## Installation
+
+*Installing python3.6
+RASA NLU works with upto 3.6 version otherwise, it will raise errors and problems. So it’s better you follow this or you might face issues with installation and changing the default versions of python. Setting it up is easy and you can just follow this tutorial. I’ll link up the tutorials I followed if you need more reference.
+
+Navigate in your bash terminal to the location you would like to have your environment:
+
+'''python
+cd 
+cd Documents/
+'''
+
 To install Rasa, run the following pip command that we’ll be using Rasa version 0.13.2.
 
 $pip install rasa-nlu==0.13.2
