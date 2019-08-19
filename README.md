@@ -1,5 +1,5 @@
 # Shany
-RASA-powered Horoscope Chatbot
+RASA (v0.12)-powered Horoscope Chatbot
 
 ## Installation
 
